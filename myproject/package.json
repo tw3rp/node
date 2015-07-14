@@ -1,0 +1,19 @@
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "description": "My first project",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tw3rp/node.git"
+  },
+  "dependencies": {
+  "mongodb": "~2.0"
+},
+  "author": "Rahul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tw3rp/node/issues"
+  },
+  "homepage": "https://github.com/tw3rp/node"
+}
