@@ -1,0 +1,196 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/home/rahul/.nvm/v0.6.6/bin/npm', 'install' ]
+info using npm@1.1.0-beta-4
+info using node@v0.6.6
+verbose config file /home/rahul/.npmrc
+verbose config file /home/rahul/.nvm/v0.6.6/etc/npmrc
+verbose config file /home/rahul/.nvm/v0.6.6/lib/node_modules/npm/npmrc
+verbose caching /home/rahul/node/nodetest/package.json
+verbose loadDefaults nodetest@0.0.0
+verbose where, deps [ '/home/rahul/node/nodetest',
+verbose where, deps   [ 'body-parser',
+verbose where, deps     'cookie-parser',
+verbose where, deps     'debug',
+verbose where, deps     'express',
+verbose where, deps     'jade',
+verbose where, deps     'morgan',
+verbose where, deps     'serve-favicon',
+verbose where, deps     'mongodb',
+verbose where, deps     'monk' ] ]
+verbose from cache /home/rahul/node/nodetest/package.json
+info preinstall nodetest@0.0.0
+verbose from cache /home/rahul/node/nodetest/package.json
+verbose into /home/rahul/node/nodetest [ 'body-parser@~1.12.4',
+verbose into /home/rahul/node/nodetest   'cookie-parser@~1.3.5',
+verbose into /home/rahul/node/nodetest   'debug@~2.2.0',
+verbose into /home/rahul/node/nodetest   'express@~4.12.4',
+verbose into /home/rahul/node/nodetest   'jade@~1.9.2',
+verbose into /home/rahul/node/nodetest   'morgan@~1.5.3',
+verbose into /home/rahul/node/nodetest   'serve-favicon@~2.2.1',
+verbose into /home/rahul/node/nodetest   'mongodb@~2.0.33',
+verbose into /home/rahul/node/nodetest   'monk@~1.0.1' ]
+verbose cache add body-parser@~1.12.4
+verbose cache add [ 'body-parser@~1.12.4', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'body-parser@~1.12.4',
+silly cache add: name, spec, args   [ 'body-parser@~1.12.4', null ] ]
+verbose parsed url { pathname: 'body-parser@~1.12.4',
+verbose parsed url   path: 'body-parser@~1.12.4',
+verbose parsed url   href: 'body-parser@~1.12.4' }
+silly cache add: name, spec, args [ 'body-parser', '~1.12.4', [ 'body-parser', '~1.12.4' ] ]
+verbose parsed url { pathname: '~1.12.4', path: '~1.12.4', href: '~1.12.4' }
+verbose addNamed [ 'body-parser', '~1.12.4' ]
+verbose addNamed [ null, '>=1.12.4- <1.13.0-' ]
+silly name, range, hasData [ 'body-parser', '>=1.12.4- <1.13.0-', false ]
+verbose cache add cookie-parser@~1.3.5
+verbose cache add [ 'cookie-parser@~1.3.5', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'cookie-parser@~1.3.5',
+silly cache add: name, spec, args   [ 'cookie-parser@~1.3.5', null ] ]
+verbose parsed url { pathname: 'cookie-parser@~1.3.5',
+verbose parsed url   path: 'cookie-parser@~1.3.5',
+verbose parsed url   href: 'cookie-parser@~1.3.5' }
+silly cache add: name, spec, args [ 'cookie-parser', '~1.3.5', [ 'cookie-parser', '~1.3.5' ] ]
+verbose parsed url { pathname: '~1.3.5', path: '~1.3.5', href: '~1.3.5' }
+verbose addNamed [ 'cookie-parser', '~1.3.5' ]
+verbose addNamed [ null, '>=1.3.5- <1.4.0-' ]
+silly name, range, hasData [ 'cookie-parser', '>=1.3.5- <1.4.0-', false ]
+verbose cache add debug@~2.2.0
+verbose cache add [ 'debug@~2.2.0', null ]
+silly cache add: name, spec, args [ undefined, 'debug@~2.2.0', [ 'debug@~2.2.0', null ] ]
+verbose parsed url { pathname: 'debug@~2.2.0',
+verbose parsed url   path: 'debug@~2.2.0',
+verbose parsed url   href: 'debug@~2.2.0' }
+silly cache add: name, spec, args [ 'debug', '~2.2.0', [ 'debug', '~2.2.0' ] ]
+verbose parsed url { pathname: '~2.2.0', path: '~2.2.0', href: '~2.2.0' }
+verbose addNamed [ 'debug', '~2.2.0' ]
+verbose addNamed [ null, '>=2.2.0- <2.3.0-' ]
+silly name, range, hasData [ 'debug', '>=2.2.0- <2.3.0-', false ]
+verbose cache add express@~4.12.4
+verbose cache add [ 'express@~4.12.4', null ]
+silly cache add: name, spec, args [ undefined, 'express@~4.12.4', [ 'express@~4.12.4', null ] ]
+verbose parsed url { pathname: 'express@~4.12.4',
+verbose parsed url   path: 'express@~4.12.4',
+verbose parsed url   href: 'express@~4.12.4' }
+silly cache add: name, spec, args [ 'express', '~4.12.4', [ 'express', '~4.12.4' ] ]
+verbose parsed url { pathname: '~4.12.4', path: '~4.12.4', href: '~4.12.4' }
+verbose addNamed [ 'express', '~4.12.4' ]
+verbose addNamed [ null, '>=4.12.4- <4.13.0-' ]
+silly name, range, hasData [ 'express', '>=4.12.4- <4.13.0-', false ]
+verbose cache add jade@~1.9.2
+verbose cache add [ 'jade@~1.9.2', null ]
+silly cache add: name, spec, args [ undefined, 'jade@~1.9.2', [ 'jade@~1.9.2', null ] ]
+verbose parsed url { pathname: 'jade@~1.9.2',
+verbose parsed url   path: 'jade@~1.9.2',
+verbose parsed url   href: 'jade@~1.9.2' }
+silly cache add: name, spec, args [ 'jade', '~1.9.2', [ 'jade', '~1.9.2' ] ]
+verbose parsed url { pathname: '~1.9.2', path: '~1.9.2', href: '~1.9.2' }
+verbose addNamed [ 'jade', '~1.9.2' ]
+verbose addNamed [ null, '>=1.9.2- <1.10.0-' ]
+silly name, range, hasData [ 'jade', '>=1.9.2- <1.10.0-', false ]
+verbose cache add morgan@~1.5.3
+verbose cache add [ 'morgan@~1.5.3', null ]
+silly cache add: name, spec, args [ undefined, 'morgan@~1.5.3', [ 'morgan@~1.5.3', null ] ]
+verbose parsed url { pathname: 'morgan@~1.5.3',
+verbose parsed url   path: 'morgan@~1.5.3',
+verbose parsed url   href: 'morgan@~1.5.3' }
+silly cache add: name, spec, args [ 'morgan', '~1.5.3', [ 'morgan', '~1.5.3' ] ]
+verbose parsed url { pathname: '~1.5.3', path: '~1.5.3', href: '~1.5.3' }
+verbose addNamed [ 'morgan', '~1.5.3' ]
+verbose addNamed [ null, '>=1.5.3- <1.6.0-' ]
+silly name, range, hasData [ 'morgan', '>=1.5.3- <1.6.0-', false ]
+verbose cache add serve-favicon@~2.2.1
+verbose cache add [ 'serve-favicon@~2.2.1', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'serve-favicon@~2.2.1',
+silly cache add: name, spec, args   [ 'serve-favicon@~2.2.1', null ] ]
+verbose parsed url { pathname: 'serve-favicon@~2.2.1',
+verbose parsed url   path: 'serve-favicon@~2.2.1',
+verbose parsed url   href: 'serve-favicon@~2.2.1' }
+silly cache add: name, spec, args [ 'serve-favicon', '~2.2.1', [ 'serve-favicon', '~2.2.1' ] ]
+verbose parsed url { pathname: '~2.2.1', path: '~2.2.1', href: '~2.2.1' }
+verbose addNamed [ 'serve-favicon', '~2.2.1' ]
+verbose addNamed [ null, '>=2.2.1- <2.3.0-' ]
+silly name, range, hasData [ 'serve-favicon', '>=2.2.1- <2.3.0-', false ]
+verbose cache add mongodb@~2.0.33
+verbose cache add [ 'mongodb@~2.0.33', null ]
+silly cache add: name, spec, args [ undefined, 'mongodb@~2.0.33', [ 'mongodb@~2.0.33', null ] ]
+verbose parsed url { pathname: 'mongodb@~2.0.33',
+verbose parsed url   path: 'mongodb@~2.0.33',
+verbose parsed url   href: 'mongodb@~2.0.33' }
+silly cache add: name, spec, args [ 'mongodb', '~2.0.33', [ 'mongodb', '~2.0.33' ] ]
+verbose parsed url { pathname: '~2.0.33', path: '~2.0.33', href: '~2.0.33' }
+verbose addNamed [ 'mongodb', '~2.0.33' ]
+verbose addNamed [ null, '>=2.0.33- <2.1.0-' ]
+silly name, range, hasData [ 'mongodb', '>=2.0.33- <2.1.0-', false ]
+verbose cache add monk@~1.0.1
+verbose cache add [ 'monk@~1.0.1', null ]
+silly cache add: name, spec, args [ undefined, 'monk@~1.0.1', [ 'monk@~1.0.1', null ] ]
+verbose parsed url { pathname: 'monk@~1.0.1',
+verbose parsed url   path: 'monk@~1.0.1',
+verbose parsed url   href: 'monk@~1.0.1' }
+silly cache add: name, spec, args [ 'monk', '~1.0.1', [ 'monk', '~1.0.1' ] ]
+verbose parsed url { pathname: '~1.0.1', path: '~1.0.1', href: '~1.0.1' }
+verbose addNamed [ 'monk', '~1.0.1' ]
+verbose addNamed [ null, '>=1.0.1- <1.1.0-' ]
+silly name, range, hasData [ 'monk', '>=1.0.1- <1.1.0-', false ]
+verbose raw, before any munging body-parser
+verbose url resolving [ 'https://registry.npmjs.org/', './body-parser' ]
+verbose url resolved https://registry.npmjs.org/body-parser
+http GET https://registry.npmjs.org/body-parser
+verbose raw, before any munging cookie-parser
+verbose url resolving [ 'https://registry.npmjs.org/', './cookie-parser' ]
+verbose url resolved https://registry.npmjs.org/cookie-parser
+http GET https://registry.npmjs.org/cookie-parser
+verbose raw, before any munging debug
+verbose url resolving [ 'https://registry.npmjs.org/', './debug' ]
+verbose url resolved https://registry.npmjs.org/debug
+http GET https://registry.npmjs.org/debug
+verbose raw, before any munging express
+verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+verbose url resolved https://registry.npmjs.org/express
+http GET https://registry.npmjs.org/express
+verbose raw, before any munging jade
+verbose url resolving [ 'https://registry.npmjs.org/', './jade' ]
+verbose url resolved https://registry.npmjs.org/jade
+http GET https://registry.npmjs.org/jade
+verbose raw, before any munging morgan
+verbose url resolving [ 'https://registry.npmjs.org/', './morgan' ]
+verbose url resolved https://registry.npmjs.org/morgan
+http GET https://registry.npmjs.org/morgan
+verbose raw, before any munging serve-favicon
+verbose url resolving [ 'https://registry.npmjs.org/', './serve-favicon' ]
+verbose url resolved https://registry.npmjs.org/serve-favicon
+http GET https://registry.npmjs.org/serve-favicon
+verbose raw, before any munging mongodb
+verbose url resolving [ 'https://registry.npmjs.org/', './mongodb' ]
+verbose url resolved https://registry.npmjs.org/mongodb
+http GET https://registry.npmjs.org/mongodb
+verbose raw, before any munging monk
+verbose url resolving [ 'https://registry.npmjs.org/', './monk' ]
+verbose url resolved https://registry.npmjs.org/monk
+http GET https://registry.npmjs.org/monk
+silly get cb [ 304, undefined ]
+ERR! Error: failed to fetch from registry: body-parser
+ERR!     at /home/rahul/.nvm/v0.6.6/lib/node_modules/npm/lib/utils/npm-registry-client/get.js:139:12
+ERR!     at cb (/home/rahul/.nvm/v0.6.6/lib/node_modules/npm/lib/utils/npm-registry-client/request.js:32:9)
+ERR!     at Request._callback (/home/rahul/.nvm/v0.6.6/lib/node_modules/npm/lib/utils/npm-registry-client/request.js:137:18)
+ERR!     at Request.callback (/home/rahul/.nvm/v0.6.6/lib/node_modules/npm/node_modules/request/main.js:104:22)
+ERR!     at Request.<anonymous> (/home/rahul/.nvm/v0.6.6/lib/node_modules/npm/node_modules/request/main.js:181:58)
+ERR!     at Request.emit (events.js:88:20)
+ERR!     at ClientRequest.<anonymous> (/home/rahul/.nvm/v0.6.6/lib/node_modules/npm/node_modules/request/main.js:329:14)
+ERR!     at ClientRequest.emit (events.js:67:17)
+ERR!     at HTTPParser.onIncoming (http.js:1225:11)
+ERR!     at HTTPParser.onHeadersComplete (http.js:102:31)
+ERR! Report this *entire* log at:
+ERR!     <http://github.com/isaacs/npm/issues>
+ERR! or email it to:
+ERR!     <npm-@googlegroups.com>
+ERR! 
+ERR! System Linux 3.13.0-32-generic
+ERR! command "node" "/home/rahul/.nvm/v0.6.6/bin/npm" "install"
+ERR! cwd /home/rahul/node/nodetest
+ERR! node -v v0.6.6
+ERR! npm -v 1.1.0-beta-4
+ERR! message failed to fetch from registry: body-parser
+verbose exit [ 1, true ]
